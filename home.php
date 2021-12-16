@@ -1,16 +1,16 @@
 <?php
-    session_start();
-    $con=mysqli_connect('34.93.221.231','root','root123','srikaappi');
-    if(!$con){
-        die("Connection error ".mysqli_connect_error()); 
-    }
-    $sql = "TRUNCATE TABLE sri_beverages";
-    $result=mysqli_query($con,$sql);
-    if(isset($_SESSION['uname'])){
-        // echo "<a"
-    }else{
-        echo "<script>location.href='login.php'</script>";
-    }
+//     session_start();
+//     $con=mysqli_connect('34.93.221.231','root','root123','srikaappi');
+//     if(!$con){
+//         die("Connection error ".mysqli_connect_error()); 
+//     }
+//     $sql = "TRUNCATE TABLE sri_beverages";
+//     $result=mysqli_query($con,$sql);
+//     if(isset($_SESSION['uname'])){
+//         // echo "<a"
+//     }else{
+//         echo "<script>location.href='login.php'</script>";
+//     }
 ?>
 <!DOCTYPE html>
 <html lang="en">
