@@ -1,0 +1,205 @@
+body, html { width: 100%; height: 100%; background-color: rgb(255, 249, 241);}
+
+tr{
+    font-size: 14px;
+}
+hr{
+    height: 2px;
+    background-color: rgb(31, 30, 30);
+}
+#emptydate{
+    color: red;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.card-custom{
+    margin: 1%;
+    max-width: 135px;
+    min-width: 135px;
+    background-color: rgb(216, 195, 169);
+}
+/* .navbar_custom a img{
+   margin-bottom: 20%;
+} */
+.navbar_custom a h3{
+    margin-left: 5%;
+}
+.navbar_custom{
+    background-color: rgb(48, 45, 45);
+    position: fixed;
+    width: 100%;
+    height: 8%;
+    z-index: 1;
+    border-radius: 0px;
+}
+.small-tamil{
+    margin-top: -10px;
+}
+.card-custom:hover{
+    background-color: rgb(216, 195, 169);
+}
+
+.button1{
+    background-color: RED;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.side-bar{
+    background-color: burlywood;
+    height: 92vh;
+}
+.items-table{
+    width: 200px;
+}
+.center-content{
+    background-color: rgb(241, 233, 222);
+    overflow: scroll;
+    height: 92vh;
+}
+.side-name{
+    display: block;
+}
+.bill-bar-main{
+    /* min-height: 660px;
+    max-height: 660px; */
+}
+.bill-bar{
+    text-align: center;
+    overflow: auto;
+    height: 77vh;
+    
+}
+.total-amount{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+.t1{
+   margin: 4%;
+   width: 20vh;
+}
+.t2{
+    margin: 4%;
+    width: 20vh;
+}
+.t3{
+    margin: 4%;
+    width: 20vh;
+    font-weight: 500;
+    display: flex;
+}
+.sidebar-buttons{
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+
+.side-btn{
+    
+    width: 100%;
+    height: 17vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.more-btn{
+    margin-top: -18px;
+}
+#plus-icon{
+    margin-right: 10px;
+}
+.bill-table{
+    
+    width: 100%;
+    background-color: rgb(252, 245, 235);
+}
+.logo{
+   margin-top: -4%;
+   height: 45px;
+}
+#sub-icon{
+    margin-left: 10px;
+}
+.report-container{
+    /* background-color: whitesmoke; */
+}
+.report_details{
+    color: red;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.recepit-heading{
+    margin-top: 8vh;
+    color: rgb(22, 22, 22);
+}
+.recepit-table{
+    background-color: white;
+}
+.receipt_thead1{
+    background-color: burlywood;
+    color: rgb(29, 28, 28);
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 3%;
+}
+
+#print_bill{
+    background-color: rgb(53, 97, 134);
+    color: white;
+}
+
+#new_bill{
+    background-color: rgb(49, 98, 138);
+    color: white;
+}
+
+@media (max-width: 1199.98px) {
+     
+}
+
+@media (max-width: 991.98px) {
+    .side-name{
+        display: none;
+    }
+}
+@media (max-width: 767.98px) { 
+    .sidebar-buttons{
+        display: flex;
+        position: absolute;
+        left: 0;
+        right: 0;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .side-bar{
+        background-color: burlywood;
+        height: 10vh;
+    }
+    .side-name{
+        display: none;
+    }
+    .side-btn{
+        height: 10vh;
+    }
+}

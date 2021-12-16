@@ -1,0 +1,121 @@
+*{
+    font-size: 16px;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.main-container{
+   height: 100%;
+}
+/* .side-bar{
+    background-color: rgb(192, 57, 57);
+    width: 7%;
+    position: absolute;
+    height: 100%;
+    max-width: 100%;
+    left: 0px;
+} */
+
+.navbar_custom a{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+/* .content-bar{
+    margin-left: 7%;
+    margin-right: 27%;
+    background-color: darkgray;
+} */
+
+
+.container-fixed{
+    
+}
+.plus-icon:hover{
+    border: 2px solid blue;
+}
+
+.view-content{
+    display: none;
+}
+
+
+.btn-plus-icon{
+    cursor: pointer;
+}
+.btn-sub-icon{
+    cursor: pointer;
+}
+
+.drop_nav{
+    margin-right: 100px;
+}
+#amount,#amount1{
+    
+    font-size: 21px;
+    /* margin-left: 10px; */
+    font-weight: 600;
+    color: rgb(39, 41, 39);
+}
+
+.b1{
+    background-color: rgb(202, 161, 114);
+    
+}
+
+.qty_direction{
+    display: flex;
+    /* background-color: red; */
+    flex-direction: row;
+}
+.card-addition{
+    display: flex;
+    flex-direction: row;
+    margin: 3%;
+}
+.all-cards{
+    /* display: flex;
+    flex-direction: row; */
+    /* margin: 1%; */
+}
+.container-fixed{
+    position: absolute;
+    top: 8%;
+}
+#tick{
+    margin-left: 30px;
+}
+.pic-btn{
+    cursor: pointer;
+}
+.pic-btn:hover{
+    border: 2px solid rgb(48, 45, 45);
+}
+.card-title{
+    font-size: 16px;
+    padding-top: 5%;
+}
+.tick-mark{
+    display: none;
+}
+.tick-mark-active{
+    display: block;
+}
+/* 
+.side-bar ul li{
+    list-style-type: none;
+    font-size: 16px;
+    margin-top: 80%;
+    margin-bottom: 20%;
+    
+}
+
+.bill-bar{
+    background-color: gainsboro;
+    width: 27%;
+    position: absolute;
+    height: 100%;
+    max-width: 100%;
+    right: 0px;
+    top: 66px;
+} */

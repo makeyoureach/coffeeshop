@@ -1,0 +1,23 @@
+h1{
+    color: rgb(19, 73, 99);
+    text-align: center;
+}
+
+
+.login_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* .container{
+    width: 100%;
+    margin-top: 100px;
+    
+} */
+
+#username,#password{
+    width: 400px;
+}
+

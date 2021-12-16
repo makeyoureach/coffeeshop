@@ -1,0 +1,25 @@
+body{
+    height: 100%;
+}
+.login-container{
+    background: rgb(0,212,255);
+background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(0,36,34,1) 0%, rgba(14,51,22,1) 0%, rgba(65,130,208,1) 0%, rgba(9,9,121,1) 100%);
+}
+.form-container{
+    /* width: 60%; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    /* background-color: white; */
+    padding: 2%;
+}
+#small{
+    color: rgb(71, 89, 255);
+}
+.background-img{
+    height: 100vh;
+    filter: brightness(0.3);
+    background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}

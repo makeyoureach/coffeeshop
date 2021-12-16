@@ -1,0 +1,31 @@
+#recepit_details{
+    width: 303px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.modal-container{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 5px;
+}
+
+.recepit_address{
+    display: flex;
+    flex-direction: row;
+}
+.a1{
+    width: 150px;
+    margin-right: 100px;
+}
+.d1{
+    width: 50px;
+    right: 0px;
+}
+.login-body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,7,43,1) 0%, rgba(34,166,195,1) 100%, rgba(0,212,255,1) 100%, rgba(88,146,181,1) 100%);
+}
